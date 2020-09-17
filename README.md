@@ -50,6 +50,11 @@ The `CACHE_ROOT` should either be on a separate partition, or ideally on separat
 
 > **Note:** this setting defaults to `./lancache`. Unless your cache storage lives here, you probably want to change this value.
 
+## `LOG_ROOT`
+This will be used as the base directory for storing log data as `LOG_ROOT/logs`.
+
+> **Note:** this setting defaults to the same as your `CACHE_ROOT` setting.
+
 ## `CACHE_MEM_SIZE`
 This controls the size of the memory cache used by the cache server. The default should suffice for almost all configurations.
 
